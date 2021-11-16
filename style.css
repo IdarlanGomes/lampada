@@ -26,18 +26,17 @@ h1{
 }
 
 button{
-    width: 60px;
-    color: rgb(252, 250, 250);
-    background-color: rgba(0, 0, 0, 0.871);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-#liga:hover{
-    background-color: green;
     
+    color: rgb(252, 250, 250);
+    background-color: rgb(29, 31, 29);
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    font-size: 1em;
+    align-items: center;
 }
 
-#desliga:hover{
-    background-color: red;
+
+
+#ligaDesliga:hover{
+    background-color: rgba(70, 70, 68, 0.726);
 }
