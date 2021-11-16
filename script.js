@@ -24,9 +24,9 @@ function lampBroken(){
 }
 
 function lampOnOff(){
-    if (ligaDesliga.textContent == 'Liga'){
+    if (ligaDesliga.textContent == 'Liga'){ //.textContent quando usado com == (igual a) verifica se o conteúdo do texto na const ligaDesliga é igual a 'Liga'
         lampOn ()
-        ligaDesliga.textContent = 'Desliga'
+        ligaDesliga.textContent = 'Desliga' //.textContent quando usado com = (recebe) altera o conteúdo do texto na consta ligaDesliga para 'Desliga'
 
     }else{
         lampOff ()
